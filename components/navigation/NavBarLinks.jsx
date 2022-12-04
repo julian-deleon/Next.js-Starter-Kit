@@ -7,7 +7,7 @@ function NavBarLinks() {
             <Link href="/">home</Link>
             </li>
             <li>
-            <Link href="/frontend">front end</Link>
+            <Link href="/adventure">adventure</Link>
             </li>
             <li>
             <Link href="/uiux">ui/ux</Link> 
