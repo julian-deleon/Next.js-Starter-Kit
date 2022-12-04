@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { PageHeader } from '../components/header'
+import { NavBar } from '../components/navigation'
 
 export default function Home() {
   return (
