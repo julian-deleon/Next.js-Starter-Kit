@@ -12,7 +12,6 @@ export default function ContentPageLayout({ children, title, type, tagline}) {
       </Head>
       
       <ContentPageHeader tagline={tagline} type={type} title={title} />
-      <main>{children}</main>
     </>
   );
 }

@@ -7,7 +7,11 @@ module.exports = {
     "./ui/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'road-bg': "url('/road-bg.jpg')"
+      }
+    },
   },
   plugins: [],
 }

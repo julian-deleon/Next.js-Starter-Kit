@@ -4,37 +4,43 @@ import path from 'path'
 import {promises as fs} from 'fs'
 
 function AdventurePage({bikes}) {
-    console.log(`${bikes}`)
+    //console.log(`${bikes}`)
 
     return (
         <>
-           <main>
-                <BikeCard/>
-           </main>
+        <div className="bg-[url('/road-bg.jpg')] bg-cover">
+            <ContentPageLayout
+                title="Adventure Bikes"
+                tagline="Go anywhere, paved or unpaved"
+           />
+
+            <main className="mt-10 pb-20 flex flex-row gap-6 flex-wrap justify-center mx-auto max-w-7xl">
+                {bikes.map(bike => <BikeCard key={bike.id} 
+                    makeAndModel={`${bike.make + " " + bike.model}`}
+                    image={bike.image}
+                    price={bike.price}
+                    rating={bike.rating}
+                    condition={bike.condition}
+                />)}
+            </main>
+        </div>
         </>
+
     );
 }
 
 export default AdventurePage;
 
-AdventurePage.getLayout = function getLayout(page) { 
-    return ( 
-        <ContentPageLayout type='Adventure Bikes' title='Title here.' tagline='Makes the last big thing usable' > 
-            {page} 
-        </ContentPageLayout>
-       
-    ) 
-}
 
 export async function getStaticProps(content){
-    const filePath = path.join(process.cwd(), '')
+    const filePath = path.join(process.cwd(), '/mock/bikes.json')
     const bikes = JSON.parse(await fs.readFile(filePath, 'utf8'))
 
-    console.log("Server Code")
+    const adventureBikes = bikes.filter(bike => bike.category==="adventure")
 
     return{
         props:{
-            bikes: "some bikes"
+            bikes: adventureBikes
         }
     }
 }

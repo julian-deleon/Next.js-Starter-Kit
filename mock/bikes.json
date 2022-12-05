@@ -1,0 +1,62 @@
+[
+  {
+    "id": "98234",
+    "make": "Ducati",
+    "category": "adventure",
+    "model": "Multistrada",
+    "price": "$15,000",
+    "image": "/ducati-multistrada.jpg",
+    "rating": "8/10",
+    "condition": "New"
+  },
+  {
+    "id": "21238",
+    "make": "BMW",
+    "category": "adventure",
+    "model": "1250 GS Adventure",
+    "price": "$12,000",
+    "image": "/bmw-1250.jpg",
+    "rating": "8.5/10",
+    "condition": "Previously Owned"
+  },
+  {
+    "id": "56235",
+    "make": "Honda",
+    "category": "adventure",
+    "model": "Africa Twin",
+    "price": "$17,500",
+    "image": "/honda-africa-twin.jpg",
+    "rating": "9/10",
+    "condition": "New"
+  },
+  {
+    "id": "44879",
+    "make": "Suzuki ",
+    "category": "adventure",
+    "model": "V-Strom",
+    "price": "$10,000",
+    "image": "/suzuki-vstrom.jpg",
+    "rating": "7/10",
+    "condition": "Previously Owned"
+  },
+  {
+    "id": "25698",
+    "make": "Harley-Davidson",
+    "category": "adventure",
+    "model": "P.A. 1250",
+    "price": "$18,000",
+    "image": "/harley-davidson-pan-america.png",
+    "rating": "8/10",
+    "condition": "New"
+  },
+  {
+    "id": "77157",
+    "make": "KTM ",
+    "category": "adventure",
+    "model": "390 Adventure",
+    "price": "$6,700",
+    "image": "/ktm-390.jpg",
+    "rating": "7.5/10",
+    "condition": "New"
+  }
+]
