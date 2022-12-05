@@ -1,6 +1,11 @@
-# NEXT.js Starter Kit (*Styled with Tailwind CSS*)
+# Bike Lounge 
+Click this [link](https://next-js-starter-kit-topaz.vercel.app/) to view my live website deployed with Vercel!
 
-This project is a starting template for learing how to use components with NEXT.js. I am using Tailwind CSS as a styling solution in this starter kit, but there are other options available. Check out the link below:
+My Webpage displays different motorcycle categories and helps you choose your next ride!
+
+## Next.js Webpage (*Styled with Tailwind CSS*)
+
+This project is a starting point for learing how to use components with NEXT.js. I am using Tailwind CSS as a styling solution in this starter kit, but there are other options available. Check out the link below:
 
 [LogRocket - The best styling options for Next.js](https://blog.logrocket.com/best-styling-options-nextjs/)
 
