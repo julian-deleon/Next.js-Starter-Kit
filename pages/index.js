@@ -7,12 +7,12 @@ export default function Home() {
     <>
       <Head>
         <meta name="description" content="Get help hiring the right developer for your project with Dev Lounge."/>
-        <title>Find a Developer</title>      
+        <title>Find your next bike</title>      
       </Head>
 
       <PageHeader
-        title='Dev Lounge'
-        tagline='Find the right developer for your project'
+        title='Bike Lounge'
+        tagline='Start your next motorcycle adventure'
       />  
     </>
   )
