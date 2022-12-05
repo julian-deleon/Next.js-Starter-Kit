@@ -15,16 +15,16 @@ function BikeCard({image, makeAndModel, price, rating, condition}) {
               {makeAndModel}
             </h5>
 
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              {price}
+            <p className="font-bold text-green-700 dark:text-gray-400">
+              Price: {price}
             </p>
 
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              {rating}
+              Rating: {rating}
             </p>
 
             <p className="font-normal text-gray-700 dark:text-gray-400">
-              {condition}
+              Condition: {condition}
             </p>
         </div>
       </div>
