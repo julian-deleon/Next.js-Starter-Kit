@@ -1,7 +1,6 @@
 import { BikeCard } from "../components/bikes";
 import { ContentPageLayout } from "../components/layouts";
-import path from 'path'
-import {promises as fs} from 'fs'
+import { getBikes } from '../libs/getBikes'
 
 function AdventurePage({bikes}) {
     //console.log(`${bikes}`)
@@ -21,6 +20,7 @@ function AdventurePage({bikes}) {
                     price={bike.price}
                     rating={bike.rating}
                     condition={bike.condition}
+                    id={bike.id}
                 />)}
             </main>
         </div>
@@ -33,8 +33,7 @@ export default AdventurePage;
 
 
 export async function getStaticProps(content){
-    const filePath = path.join(process.cwd(), '/mock/bikes.json')
-    const bikes = JSON.parse(await fs.readFile(filePath, 'utf8'))
+    const bikes = await getBikes()
 
     const adventureBikes = bikes.filter(bike => bike.category==="adventure")
 
