@@ -12,4 +12,4 @@ function BioTopic({topic}) {
     );
   }
   
-  export default BioTopic;
+  export default BioTopic; 

@@ -12,7 +12,7 @@ function BioHeader({ image, makeAndModel, price }) {
                 />
         
                 <div className="my-auto ml-5">
-                    <p className="pb-2 text-2xl font-bold text-gray-900">{makeAndModel}</p>
+                    <p className="pb-2 text-2xl font-bold text-gray-90">{makeAndModel}</p>
                     <p className="font-bold text-green-700">Price: {price}</p>
                 </div>
             </div>
