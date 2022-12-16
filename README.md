@@ -1,4 +1,7 @@
 # Bike Lounge 
+
+![bike-lounge-collage](https://user-images.githubusercontent.com/77114985/208198497-99ccb656-70f5-4d99-8328-cc74d4a138d9.png)
+
 Click this [link](https://next-js-starter-kit-topaz.vercel.app/) to view my live website deployed with Vercel!
 
 My Webpage displays different motorcycle categories and helps you choose your next ride!
