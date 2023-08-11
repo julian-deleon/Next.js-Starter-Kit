@@ -1,6 +1,6 @@
 # Bike Lounge 
 
->Click this [LINK](https://next-js-starter-kit-topaz.vercel.app/) to view my live website deployed with Vercel!
+### Click this [LINK](https://next-js-starter-kit-topaz.vercel.app/) to view my live website deployed with Vercel!
 
 ![category](https://user-images.githubusercontent.com/77114985/208198673-a73ee960-94be-4849-b126-a462915fb3ab.png)
 
