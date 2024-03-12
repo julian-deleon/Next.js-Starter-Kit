@@ -1,22 +1,22 @@
 import Link from 'next/link'
 
-function NavBarLinks() {
+function NavBarLinks({ isMobileMenuOpen }) {
     return (
-        <ul className=" hidden  md:flex gap-4 text-slate-600 font-bold ">
+        <ul className={`md:flex gap-4 text-slate-600 font-bold ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
             <li>
-            <Link href="/">Home</Link>
+                <Link href="/">Home</Link>
             </li>
             <li>
-            <Link href="/adventure">Adventure</Link>
+                <Link href="/adventure">Adventure</Link>
             </li>
             <li>
-            <Link href="/sport">Sport</Link> 
+                <Link href="/sport">Sport</Link>
             </li>
             <li>
-            <Link href="/street">Street</Link> 
+                <Link href="/street">Street</Link>
             </li>
             <li>
-            <Link href="/touring">Touring</Link> 
+                <Link href="/touring">Touring</Link>
             </li>
         </ul>
     );
